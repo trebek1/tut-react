@@ -70,6 +70,7 @@ ReactDOM.render(<Main />, document.getElementById('app'));
 
 webpack -w 
 open index.html 
+
 —————————————————————————————————————
 
 
