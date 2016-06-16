@@ -150,6 +150,7 @@ componentWillUnmount: function(){
   } // so that after you have moved on from that component, it isn't still listening 
 npm install --save firebase@2.3.2
 
+npm install --save axios@0.8.0
 
 
 
