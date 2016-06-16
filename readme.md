@@ -138,6 +138,18 @@ module.exports = Main
 
 //ReactDOM.render(<Main />, document.getElementById('app')); 
 
+___________________________________________________________
+
+Reactfire : state updates when firebase endpoint changes 
+
+npm install --save reactfire@0.5.1
+ReactFireMixin -- taking the 'this' of yor class and adding methods to use later 
+'componentDidMount' -- where you set up ajax requests and firebase liseners 
+componentWillUnmount: function(){
+      this.unbind('notes');
+  } // so that after you have moved on from that component, it isn't still listening 
+npm install --save firebase@2.3.2
+
 
 
 
